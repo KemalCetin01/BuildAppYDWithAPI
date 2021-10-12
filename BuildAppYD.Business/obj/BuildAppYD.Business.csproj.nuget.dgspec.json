@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Business\\BuildAppYD.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Business\\BuildAppYD.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Business\\BuildAppYD.Business.csproj",
+        "projectName": "BuildAppYD.Business",
+        "projectPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Business\\BuildAppYD.Business.csproj",
+        "packagesPath": "C:\\Users\\kemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.DataAccess\\BuildAppYD.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.DataAccess\\BuildAppYD.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Core\\BuildAppYD.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Core\\BuildAppYD.Core.csproj",
+        "projectName": "BuildAppYD.Core",
+        "projectPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Core\\BuildAppYD.Core.csproj",
+        "packagesPath": "C:\\Users\\kemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.DataAccess\\BuildAppYD.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.DataAccess\\BuildAppYD.DataAccess.csproj",
+        "projectName": "BuildAppYD.DataAccess",
+        "projectPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.DataAccess\\BuildAppYD.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\kemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Core\\BuildAppYD.Core.csproj": {
+                "projectPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Core\\BuildAppYD.Core.csproj"
+              },
+              "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Entities\\BuildAppYD.Entities.csproj": {
+                "projectPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Entities\\BuildAppYD.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Entities\\BuildAppYD.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Entities\\BuildAppYD.Entities.csproj",
+        "projectName": "BuildAppYD.Entities",
+        "projectPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Entities\\BuildAppYD.Entities.csproj",
+        "packagesPath": "C:\\Users\\kemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kemal\\source\\repos\\BuildAppYDWithAPI\\BuildAppYD.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
